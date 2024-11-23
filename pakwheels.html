@@ -6,142 +6,159 @@
     <title>Pakwheels Website</title>
     <a href="pakwheels.css"></a>
     <link rel="stylesheet" href="pakwheels.css">
-    <style>
-    </style>
 </head>
 <body>
     <!-- Navbar code -->
-    <div id="nav" style="width: 100%; border: 1px black solid;">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-SY3SMZPPgQNiqZUeSUnpMouuy0KAVbWkeW6GSCoeWfOSHX0nZkEKb9QDyvt0qTBbg&usqp=CAU"
-         alt="" width="200px" height="70px">
-        <ul>
-            <li style="font-size: large;">Used Cars</li>
-            <li style="font-size: large;">New Cars</li>
-            <li style="font-size: large;">Bikes</li>
-            <li style="font-size: large;">Auto Store</li>
-            <li style="font-size: large;">Videos</li>
-            <li style="font-size: large;">Forums</li>
-            <li style="font-size: large;">Blog</li>
-            <li style="font-size: large;">More</li>
-        </ul>
-        <input type="text" readonly placeholder="Type to search">
-    </div>
-    <!-- Body code -->
-     <div id="intro">
-        <h1>Find Used Cars in Pakistan</h1>
-        <h3>With thousands of cars, we have just the right one for you</h3>
-        <div>
-            <select name="" id="">
-                <option value="">Car Make Or Model</option>
-            </select> 
-            <select name="" id="">
-                <option value="">All Cities</option>
-                <option value="" style="font-size: medium;">Popular Cities</option> 
-                <option value="">Karachi</option>
-                <option value="">Lahore</option>
-                <option value="">Islamabad</option>
-                <option value="">Peshawar</option>
-                <option value="">Rawalpindi</option>
-                <option value="" style="font-size: medium;">Other Cities</option>
-                <option value="">Abbottabad</option>
-                <option value="">Abdul Hakeem</option>
-                <option value="">Ali Chak</option>
-                <option value="">Akora Khattak</option>
-                <option value="">Badin</option>
-                <option value="">Babarloi</option>
-            </select>
-            <select name="" id="">
-                <option value="">Price Range</option>
-                <option value="">5 Lacs</option>
-                <option value="">10 Lacs</option>
-                <option value="">15 Lacs</option>
-                <option value="">20 Lacs</option>
-                <option value="">25 Lacs</option>
-                <option value="">30 Lacs</option>
-            </select>
+
+     <div id="col">
+        <div id="nav" style="width: 100%;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy-SY3SMZPPgQNiqZUeSUnpMouuy0KAVbWkeW6GSCoeWfOSHX0nZkEKb9QDyvt0qTBbg&usqp=CAU" alt="" width="200px" height="70px">
+            <ul>
+                <li style="font-size: large;">Used Cars</li>
+                <li style="font-size: large;">New Cars</li>
+                <li style="font-size: large;">Bikes</li>
+                <li style="font-size: large;">Auto Store</li>
+                <li style="font-size: large;">Videos</li>
+                <li style="font-size: large;">Forums</li>
+                <li style="font-size: large;">Blog</li>
+                <li style="font-size: large;">More</li>
+            </ul>
+            <input type="text" placeholder="Type to search">
         </div>
+        <!-- Body code -->
+         <div id="intro">
+            <h1 style="color: white; margin-bottom: 10px;">Find Used Cars in Pakistan</h1>
+            <h3 style="color: white;">With thousands of cars, we have just the right one for you</h3>
+            <div>
+                <select name="" id="" style="height: 30px; width: 150px; border-radius: 10px;">
+                    <option value="">Car Make Or Model</option>
+                </select> 
+                <select name="" id="" style="height: 30px; width: 150px; border-radius: 10px;">
+                    <option value="">All Cities</option>
+                    <option value="" style="font-size: medium;">Popular Cities</option> 
+                    <option value="">Karachi</option>
+                    <option value="">Lahore</option>
+                    <option value="">Islamabad</option>
+                    <option value="">Peshawar</option>
+                    <option value="">Rawalpindi</option>
+                    <option value="" style="font-size: medium;">Other Cities</option>
+                    <option value="">Abbottabad</option>
+                    <option value="">Abdul Hakeem</option>
+                    <option value="">Ali Chak</option>
+                    <option value="">Akora Khattak</option>
+                    <option value="">Badin</option>
+                    <option value="">Babarloi</option>
+                </select>
+                <select name="" id="" style="height: 30px; width: 150px; border-radius: 10px; margin-bottom: 20px;">
+                    <option value="">Price Range</option>
+                    <option value="">5 Lacs</option>
+                    <option value="">10 Lacs</option>
+                    <option value="">15 Lacs</option>
+                    <option value="">20 Lacs</option>
+                    <option value="">25 Lacs</option>
+                    <option value="">30 Lacs</option>
+                </select>
+                <input type="button" value="Search">
+            </div>
+         </div>
      </div>
      <h1>Browsed Used Cars</h1>
-     <div id="intro2" style="width: 100%; border: 1px black solid;">
-        <div>
-            <ul>
-                <li style="font-size: large;">Category</li>
-                <li style="font-size: large;">City</li>
-                <li style="font-size: large;">Make</li>
-                <li style="font-size: large;">Model</li>
-                <li style="font-size: large;">Budget</li>
-                <li style="font-size: large;">Bodytype</li>
-            </ul>
+     <div id="intro2" style="width: 100%; height: 250px; background-color: rgb(242, 236, 236);">
+        <div style="width: 35%; display: flex; flex-direction: row; justify-content: space-evenly;">
+            <input type="button" value="Category" style="width: 70px;">
+            <input type="button" value="City" style="width: 70px;">
+            <input type="button" value="Make" style="width: 70px;">
+            <input type="button" value="Model" style="width: 70px;">
+            <input type="button" value="Budget" style="width: 70px;">
+            <input type="button" value="Bodytype" style="width: 70px;">
         </div>
-        <div class="img">
-            <img src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-automatic-c31e55a306b5dc830a35126214adf424.svg" 
-            alt="" height="50px" width="100px">
-            <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-family-cars-4f911e679fe49110e8188acad02b0c37.svg" 
-            alt="" height="50px" width="100px">
-            <img src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-5-seater-5a79ef25572fae1f9879388fa1993654.svg"
-             alt="" height="50px" width="100px">
-            <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-small-db5fdbcf61558168eabb14bcac50e950.svg"
-            alt="" height="50px" width="100px">
-            <img src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-big-8bad9492d4a161f730c29b745c80f78a.svg"
-             alt="" height="50px" width="100px">
+        <div class="img" style="width: 60%;">
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-automatic-c31e55a306b5dc830a35126214adf424.svg" 
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-family-cars-4f911e679fe49110e8188acad02b0c37.svg" 
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-5-seater-5a79ef25572fae1f9879388fa1993654.svg"
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-small-db5fdbcf61558168eabb14bcac50e950.svg"
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-big-8bad9492d4a161f730c29b745c80f78a.svg"
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">         
             <img src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-imported-52d08bb57384db850daf5ce7beac44d1.svg"
-             alt="" height="50px" width="100px">
+            alt="" height="50px" width="100px">
+            </div>
         </div>
-        <div class="img">
-            <img src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-old-099990554b17a8d2ef65cc0f95c0231f.svg" 
-            alt="" height="50px" width="100px">
-            <img src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-5-door-02cf004579bee126556c6ea52d2e0891.svg" 
-            alt="" height="50px" width="100px">
-            <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-4-door-5a79ef25572fae1f9879388fa1993654.svg" 
-            alt="" height="50px" width="100px">
-            <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-1000cc-cars-7113af6a6e6f0a08c498f817d78133a5.svg"
-             alt="" height="50px" width="100px">
-            <img src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-1300cc-cars-3a35646b711bdf934e0dd4d4d258b163.svg"
-             alt="" height="50px" width="100px">
-            <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-japanese-d8261ed9d705b3bbb5820c4f38f035dc.svg" 
-            alt="" height="50px" width="100px">
-        </div>
-     </div>
-     <h1>PakWheels Offerings</h1>
-     <div id="intro3" style="width: 100%; border: 1px black solid">
-        <div class="img2">
-            <img src="https://wsa1.pakwheels.com/assets/pw-sifm-logo-revamp-cee59e55e63e0e673fd91d960ac1871d.png"
-            alt="" height="100px" width="200px">
-            <h3>PakWheels</h3>
-            <h2>SELL IT FOR ME</h2>
-           <img src="https://wsa1.pakwheels.com/assets/pw-inspection-revamp-5d1ac35fd1c22c0abab3a7bb891876f6.png" 
-           alt="" height="100px" width="200px">
-           <h3>PakWheels</h3>
-           <h2>CARS INSPECTION</h2>
-           <img src="https://wsa3.pakwheels.com/assets/pw-car-insurance-revamp-5eb4062106cd5d828add5b1ba263d4d0.png" 
-           alt="" height="100px" width="200px">
-           <h3>PakWheels</h3>
-           <h2>CAR INSURANCE</h2>
-           <img src="https://wsa1.pakwheels.com/assets/pw-car-registration-revamp-500718d38a39c89a79570aab71d55aee.png" 
-           alt="" height="100px" width="200px">
-           <h3>PakWheels</h3>
-           <h2>CAR'S REGISTRATION</h2>
-        </div>
-        <div class="img2">
-            <img src="https://wsa4.pakwheels.com/assets/pw-auction-sheet-revamp-fde618de6d8c6e00135cb574a0e62e40.png" 
-            alt="" height="100px" width="200px">
-            <h3>PakWheels</h3>
-            <h2>AUCTION SHEET VERIFICATION</h2>
-            <img src="https://wsa1.pakwheels.com/assets/pw-partner-workshop-revamp-333e05801f8c1500389fe17eb6b88c74.png" 
-            alt="" height="100px" width="200px">
-            <h3>PakWheels</h3>
-            <h2>PARTNER WORKSHOP</h2>
-            <img src="https://wsa4.pakwheels.com/assets/pw-car-finance-revamp-42961aa10e2f9fc2cc2b1fc4b7635a4c.png" 
-            alt="" height="100px" width="200px">
-            <h3>PakWheels</h3>
-            <h2>CAR FINANCE</h2>
-            <img src="https://wsa2.pakwheels.com/assets/pw-ownership-transfer-revamp-8ca39aa201c65a1c6695815bba9bec36.png" 
-            alt="" height="100px" width="200px">
-            <h3>PakWheels</h3>
-            <h2>OWNERSHIP TRANSFER</h2>
+        <div class="img" style="width: 60%;">
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-old-099990554b17a8d2ef65cc0f95c0231f.svg" 
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa4.pakwheels.com/assets/browse-more/car-ctg-5-door-02cf004579bee126556c6ea52d2e0891.svg" 
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-4-door-5a79ef25572fae1f9879388fa1993654.svg" 
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-1000cc-cars-7113af6a6e6f0a08c498f817d78133a5.svg"
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa2.pakwheels.com/assets/browse-more/car-ctg-1300cc-cars-3a35646b711bdf934e0dd4d4d258b163.svg"
+                alt="" height="50px" width="100px">
+            </div>
+            <div style="background-color: white; width: 100px; height: 70px; border: grey 2px solid; border-radius: 10px;">
+                <img src="https://wsa1.pakwheels.com/assets/browse-more/car-ctg-japanese-d8261ed9d705b3bbb5820c4f38f035dc.svg" 
+                alt="" height="50px" width="100px">
+            </div>
         </div>
      </div>
 
+     <h1>PakWheels Offerings</h1>
+     <div id="intro3" style="width: 100%;">
+        <div class="img2">
+            <img src="https://wsa1.pakwheels.com/assets/pw-sifm-logo-revamp-cee59e55e63e0e673fd91d960ac1871d.png" alt="" height="100px" width="200px">
+            <h3 style="margin-bottom: 0%;">PakWheels</h3>
+            <h2 style="margin-bottom: 35px;">SELL IT FOR ME</h2>
+           <img src="https://wsa1.pakwheels.com/assets/pw-inspection-revamp-5d1ac35fd1c22c0abab3a7bb891876f6.png" alt="" height="100px" width="200px">
+           <h3 style="margin-bottom: 0%;">PakWheels</h3>
+           <h2 style="margin-bottom: 35px;">CARS INSPECTION</h2>
+           <img src="https://wsa3.pakwheels.com/assets/pw-car-insurance-revamp-5eb4062106cd5d828add5b1ba263d4d0.png" alt="" height="100px" width="170px">
+           <h3 style="margin-bottom: 0%;">PakWheels</h3>
+           <h2 style="margin-bottom: 35px;">CAR INSURANCE</h2>
+           <img src="https://wsa1.pakwheels.com/assets/pw-car-registration-revamp-500718d38a39c89a79570aab71d55aee.png" alt="" height="100px" width="200px">
+           <h3 style="margin-bottom: 0%;">PakWheels</h3>
+           <h2 style="margin-bottom: 35px;">CAR'S REGISTRATION</h2>
+        </div>
+        <div class="img2">
+            <img src="https://wsa4.pakwheels.com/assets/pw-auction-sheet-revamp-fde618de6d8c6e00135cb574a0e62e40.png" alt="" height="100px" width="200px">
+            <h3 style="margin-bottom: 0%;">PakWheels</h3>
+            <h2 style="margin-bottom: 35px;">AUCTION SHEET VERIFICATION</h2>
+            <img src="https://wsa1.pakwheels.com/assets/pw-partner-workshop-revamp-333e05801f8c1500389fe17eb6b88c74.png" alt="" height="100px" width="150px">
+            <h3 style="margin-bottom: 0%;">PakWheels</h3>
+            <h2 style="margin-bottom: 35px;">PARTNER WORKSHOP</h2>
+            <img src="https://wsa4.pakwheels.com/assets/pw-car-finance-revamp-42961aa10e2f9fc2cc2b1fc4b7635a4c.png" alt="" height="100px" width="200px">
+            <h3 style="margin-bottom: 0%;">PakWheels</h3>
+            <h2 style="margin-bottom: 35px;">CAR FINANCE</h2>
+            <img src="https://wsa2.pakwheels.com/assets/pw-ownership-transfer-revamp-8ca39aa201c65a1c6695815bba9bec36.png" alt="" height="100px" width="200px">
+            <h3 style="margin-bottom: 0%;">PakWheels</h3>
+            <h2 style="margin-bottom: 35px;">OWNERSHIP TRANSFER</h2>
+        </div>
+     </div>
+
+     <hr>
 <div id="cards">
      <h1>Managed By PakWheels</h1>
      <div class="img" style="width: 100%;">
@@ -170,10 +187,8 @@
             <p style="margin: 0.5%;">Karachi</p>
          </div>
      </div>
-     
-     <h1>Featured Used Cars For Sales</h1>
 
-
+     <h1 style="margin-top: 50px;">Featured Used Cars For Sales</h1>
      <div class="img" style="width: 100%;">
         <div class="img2">
             <img src="https://cache2.pakwheels.com/ad_pictures/1118/Slide_toyota-yaris-hatchback-2021-111895613.webp"
@@ -201,15 +216,14 @@
         </div>
      </div>
 
-     
-     <h1>Featured New Cars</h1>
-
+     <h1 style="margin-top: 50px;">Featured New Cars</h1>
      <div id="intro6" style="width: 100%;">
-        <ul>
-            <li style="font-size: large;">Popular</li>
-            <li style="font-size: large;">Upcoming</li>
-            <li style="font-size: large;">Newly Launched</li>
-        </ul>
+        <div>
+            <input type="button" value="Popular">
+            <input type="button" value="Upcoming">
+            <input type="button" value="Newly Launched">
+        </div>
+
         <div class="img" style="width: 100%;">
             <div class="img2">
                 <img src="https://cache1.pakwheels.com/system/car_generation_pictures/5361/medium/Corolla-X-Cars-Cropped-Pictures-for-Website.jpg?1606903674"
@@ -238,176 +252,208 @@
         </div>
      </div>
     </div>
-
-
-     <div id="intro7" style="width: 100%; border: 1px black solid;">
-        <h1>New Cars By Make</h1>
-        <div class="img" style="width: 70%;">
-            <div class="img2" style=" border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/041/resized/Suzuki.png"
-                alt="" height="50px" width="50px">
-               <h3 style="padding: 0.5%;">Suzuki</h3>
+<hr>
+     <div id="intro7" style="width: 100%; background-color: rgb(242, 236, 236);">
+        <h1 style="margin-top: 50px;">New Cars By Make</h1>
+        <div class="img" style="width: 70%; height: 130px;">
+            <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/041/resized/Suzuki.png" alt="" height="50px" width="50px">
+                </div>  
+               <h3>Suzuki</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/042/resized/Tyota.png"
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/042/resized/Tyota.png" alt="" height="50px" width="50px">
+            </div>
                <h3>Toyota</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/014/resized/Honda.png" 
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/014/resized/Honda.png" alt="" height="50px" width="50px">
+                </div>
                 <h3>Honda</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/021/resized/kia.png"
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/021/resized/kia.png" alt="" height="50px" width="50px">
+                </div>
                <h3>KIA</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/016/resized/hyundai.png"
-            alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/016/resized/hyundai.png" alt="" height="50px" width="50px">
+                </div>             
            <h3>Hyundai</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/060/resized/580b57fcd9996e24bc43c498.png" 
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/060/resized/580b57fcd9996e24bc43c498.png" alt="" height="50px" width="50px">
+                </div>
                 <h3>MG</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/068/resized/1.jpg"
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/068/resized/1.jpg"
+                    alt="" height="50px" width="50px">
+                </div>
                <h3>Changan</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/136/resized/BYD_LOGO.png" 
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/136/resized/BYD_LOGO.png" 
+                    alt="" height="50px" width="50px">
+                </div>
                 <h3>BYD</h3>
             </div>
         </div>
-        <div class="img" style="width: 70%;">
+        <div class="img" style="width: 70%; height: 130px;">
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/003/resized/BMW.png"
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/003/resized/BMW.png" alt="" height="50px" width="50px">
+                </div>
                <h3>BMW</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/053/resized/Audi.png" 
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/053/resized/Audi.png" alt="" height="50px" width="50px">
+                </div>  
                 <h3>Audi</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/080/resized/proton-logo-png-for-website.png"
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/080/resized/proton-logo-png-for-website.png" alt="" height="50px" width="50px">
+                </div>          
                <h3>Proton</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/113/resized/United.png"
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/113/resized/United.png" alt="" height="50px" width="50px">
+                </div>
                <h3>United</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/070/resized/porche.png" 
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/070/resized/porche.png" alt="" height="50px" width="50px">
+                </div>
                 <h3>Porsche</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/027/resized/mercedes.png" 
-                alt="" height="50px" width="50px">
-                <h3 style="margin: 0.3%;">Mercedes</h3>
-                <h3 style="margin: 0%;">Benz</h3>
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/027/resized/mercedes.png" alt="" height="50px" width="50px">
+                </div>
+                <h3>Mercedes</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/115/resized/prince.png"
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/115/resized/prince.png" alt="" height="50px" width="50px">
+                </div>
                <h3>Prince</h3>
             </div>
             <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-                <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/102/resized/DFSK.png" 
-                alt="" height="50px" width="50px">
+                <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+                    <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/102/resized/DFSK.png" alt="" height="50px" width="50px">
+                </div>
                 <h3>DFSK</h3>
             </div>
         </div>
-<div class="img" style="width: 70%;">
+<div class="img" style="width: 70%; height: 130px;">
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/018/resized/Isuzu.png" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/018/resized/Isuzu.png" alt="" height="50px" width="50px">
+        </div>
         <h3>Isuzu</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/093/resized/FAW.png" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/093/resized/FAW.png" alt="" height="50px" width="50px">
+        </div>  
         <h3>FAW</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/121/resized/haval-logo-for-website.png"
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/121/resized/haval-logo-for-website.png" alt="" height="50px" width="50px">
+        </div>
        <h3>Haval</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/120/resized/baic.png"
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/120/resized/baic.png" alt="" height="50px" width="50px">
+        </div>
        <h3>BAIC</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/131/resized/Screenshot_2024-02-28_112006.jpg" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/131/resized/Screenshot_2024-02-28_112006.jpg" alt="" height="50px" width="50px">
+        </div>
         <h3>ORA</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/032/resized/peugeot.png"
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/032/resized/peugeot.png" alt="" height="50px" width="50px">
+        </div>
         <h3>Peugeot</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/112/resized/JW-Forland.png" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache2.pakwheels.com/system/car_manufacturers/manufacturers/000/000/112/resized/JW-Forland.png" alt="" height="50px" width="50px">
+        </div>
         <h3>JW Forland</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">      
-        <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/132/resized/Tank.jpeg"
-         alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/132/resized/Tank.jpeg" alt="" height="50px" width="50px">
+        </div>
         <h3>Tank</h3>
     </div>
 </div>
-<div class="img" style="width: 70%;">
+<div class="img" style="width: 70%; height: 130px;">
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/069/resized/car-logos_chery.png"
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache3.pakwheels.com/system/car_manufacturers/manufacturers/000/000/069/resized/car-logos_chery.png" alt="" height="50px" width="50px">
+        </div>  
        <h3>Chery</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/114/resized/JMC.png" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/114/resized/JMC.png" alt="" height="50px" width="50px">
+        </div>
         <h3>JMC</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/135/resized/honri_logo.png" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/135/resized/honri_logo.png" alt="" height="50px" width="50px">
+        </div>
         <h3>Honri</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/111/resized/Daehan.png" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/111/resized/Daehan.png" alt="" height="50px" width="50px">
+        </div>
         <h3>Daehan</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/134/resized/Deepal_new.png"
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/134/resized/Deepal_new.png" alt="" height="50px" width="50px">
+        </div>
        <h3>Deepal</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/110/resized/Tesla.png"
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/110/resized/Tesla.png" alt="" height="50px" width="50px">
+        </div>
        <h3>Tesla</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/126/resized/White-Base-PS.jpg" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache4.pakwheels.com/system/car_manufacturers/manufacturers/000/000/126/resized/White-Base-PS.jpg" alt="" height="50px" width="50px">
+        </div>
         <h3>GUGO</h3>
     </div>
     <div class="img2" style="border-radius: 50%; height: 100px; width: 100px;">
-        <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/130/resized/seres.png" 
-        alt="" height="50px" width="50px">
+        <div style="border-radius: 50%; height: 50px; width: 50px; background-color: white; border: white 10px solid;">
+            <img src="https://cache1.pakwheels.com/system/car_manufacturers/manufacturers/000/000/130/resized/seres.png" alt="" height="50px" width="50px">
+        </div>
         <h3>Seres</h3>
     </div>
 </div>

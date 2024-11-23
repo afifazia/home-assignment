@@ -1,19 +1,38 @@
-/* div{
-    border: 1px black solid;
-    padding: 1%;
-} */
+*{
+    font-family: 'Calibri';
+}
+li{
+    color: antiquewhite;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    background: linear-gradient(rgb(170, 203, 74),rgb(176, 243, 248)) ;
+}
+ #col{
+    background: linear-gradient(black, cornflowerblue);
+}
+h1{
+    color: rgb(2, 103, 57);   
+}
+h2{
+    color: rgb(3, 72, 192);
+}
+h3{
+    color: rgb(112, 72, 230);
+}
 #nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+
 }
 #intro{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: blue;
 }
 #intro1{
     display: flex;
