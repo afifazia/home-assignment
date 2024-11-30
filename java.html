@@ -7,9 +7,50 @@
 </head>
 <body>
     <script>
-        var a = "sekiro";
-        var rt = String(prompt("Enter name"));
-        document.write("You have entered "+rt);
+        // // var  variable_name  =  value ;
+        // var std1 = "var (1)";
+        // var std1 = "var (2)"; // Update
+        // // document.write(std1+"<br>");
+
+        // // let  variable_name  =  value ;
+        // let std2 = "let (1)";
+        //     std2 = "let (2)"; // Update
+        // // document.write(std2+"<br>");
+
+        // // const  variable_name  =  value ;
+        // const std3 = "const";
+        // // document.write(std3+"<br>");
+
+        // // prompt() is used to take input from user
+        // var num1 = prompt("Enter number 1");
+        // var num2 = prompt("Enter number 2");
+        // var result = num1 * num2;
+        
+        // if-else
+        //    if(condition1) {body for condition1} 
+        //    else if(condition2) {body for condition2} 
+        //    else {body for false}
+
+        // Grade specification according to percentage, using 'if-else' 
+
+
+        var Per = parseFloat(prompt("Enter your percentage"));
+
+        if(Per >= 90 && Per < 100)
+        { document.write("Percentage: "+Per+"% <br> Grade: A+"); }
+        else if(Per >= 80)
+        { document.write("Percentage: "+Per+"% <br> Grade: A"); }
+        else if(Per >= 70)
+        { document.write("Percentage: "+Per+"% <br> Grade: B+"); }
+        else if(Per >= 60)
+        { document.write("Percentage: "+Per+"% <br> Grade: B"); }
+        else if(Per >= 50)
+        { document.write("Percentage: "+Per+"% <br> Grade: C+"); }
+        else if(Per >= 40)
+        { document.write("Percentage: "+Per+"% <br> Grade: C"); }
+        else if(Per < 40)
+        { document.write("Percentage: "+Per+"% <br> Grade: F"); }
+        
     </script>
 </body>
 </html>
