@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta Desc="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daraz</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            background-color: rgb(250, 114, 3);
+        }
+        div{
+            margin: 1px black solid;
+        }
+        a{
+            color: white;
+        }
+        ul{
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            justify-content: right;
+        }
+        li{
+            margin-top: 10px;
+            margin-right: 20px;
+            font-size: small;
+        }
+        option{
+            color: gray;
+            background-color: white;
+        }
+        #sub2{
+            display:flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        #search{
+            height: 30px;
+            width: 35%;
+            padding: 0.5%;
+            border: none;
+        }
+        #body{
+            margin: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .img{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .img1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 160px; 
+            padding-left: 15px; 
+            padding-right: 15px;    
+        }
+        .img2{
+            width: 150px; 
+            height: 140px;
+            padding-top: 15px;
+            padding-left: 10px; 
+            padding-right: 10px; 
+            border: 1px rgb(195, 191, 191) solid;
+            display: flex;
+            flex-direction: column;
+            justify-content: baseline;
+            align-items: center;
+        }
+        p{
+            font-family: century gothic;
+            text-align: center;
+        }
+        .price{
+            color: rgb(236, 114, 27); 
+            font-size: larger; 
+            margin: 0.4%;
+        }
+        .Desc{
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2; 
+            line-clamp: 2; 
+            overflow-y: scroll;
+            overflow-x: hidden;
+            text-overflow: ellipsis;
+            margin-top: 10px;
+        }
+        .discount{
+            font-size: small; margin: 0.4%;
+        }
+        .sub-img{
+            height: 180px;
+            width: 190px;
+        }
+        .for-you{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .pric{
+            color: rgb(236, 114, 27); 
+            font-size: larger; 
+            margin: 0.4%;
+        }
+        .sale{
+            font-size: small; margin: 0.4%;
+        }
+        .margin{
+            width: 190px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 15px; 
+            padding-right: 15px;
+            padding-bottom: 100px;
+        }
+        .footer{
+            display: flex;
+            flex-direction: row;
+            align-items: start;
+            justify-content: left;
+        }
+        .sub-footer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="sub1">
+            <ul>
+                <li><a href="https://apps.apple.com/us/app/daraz-online-shopping-app/id978058048">SAVE MORE ON APP</a></li>
+                <li>
+                    <a href="https://pages.daraz.pk/wow/gcp/route/daraz/pk/upr/router?spm=a2a0e.tm80335142.header.sell_on.60677bda3ujtYc&hybrid=1&data_prefetch=true&prefetch_replace=1&at_iframe=1&wh_pid=/lazada/channel/pk/promotions/sell-on-daraz">SELL ON DARAZ</a>
+                </li>
+                <select style="background-color: rgb(250, 114, 3); border: none; color: white; margin-top: 10px; margin-right: 10px; font-size: x-small; text-decoration: underline;">
+                    <option value="">HELP AND SUPPORT</option>
+                    <option value="">Help Centre</option>
+                    <option value="">Contact Customer Care</option>
+                    <option value="">Order</option>
+                    <option value="">Shippind And Dilivery</option>
+                    <option value="">Payment</option>
+                    <option value="">Returns & Refunds</option>
+                </select>
+                <li><a href="https://www.daraz.pk/#">LOGIN</a></li>
+                <li><a href="https://www.daraz.pk/#">SIGN UP</a></li>
+            </ul>
+        </div>
+        <div id="sub2">
+            <img src="daraz.webp" alt="" width="10%" height="10%" style="margin-right: 20px;">
+            <input id="search" type="text" placeholder="Search in Daraz">
+            <button style="height: 45px; width: 45px; margin-right: 10px; background-color: rgb(252, 224, 201); border: none;">
+                <img src="srch.png" alt="" width="15px" height="15px">
+            </button>
+            <button style="background-color: rgb(250, 114, 3); border: none;">
+                <img src="cart.webp" alt=""  width="45px" height="35px">
+            </button>
+        </div>
+    </div>
+
+    <!-- body -->
+    <div id="body">
+        <img src="https://img.lazcdn.com/us/domino/815e600e-f076-4d7e-bf1b-8667d5089836_PK-1976-688.jpg_2200x2200q80.jpg"
+         alt="" height="40%" width="55%">
+         <img src="img2.PNG" alt="" height="15%" width="11%">
+    </div>
+
+
+    <h1 style="color: rgb(72, 67, 67);">Flash Sales</h1>
+    <div style="display: flex; justify-content: space-around; flex-direction: row; align-items: baseline; margin-bottom: 30px;">
+        <h3 style="color: rgb(250, 114, 3); font-family: Century Gothic;">On Sale Now</h3>
+        <div style="border: rgb(250, 114, 3) 1px solid; padding: 0.4%;">
+            <h4 style="color: rgb(250, 114, 3); margin: 0%; font-family: Century Gothic; font-style: normal;">&nbsp;SHOP ALL PRODUCTS&nbsp;</h4>
+        </div>
+    </div>
+    <div class="img">
+        <div class="img1">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/1f52cf23f5d1fd7f7daf56131347aede.png_400x400q80.png" 
+            alt="" height="100px" width="120px">
+            <p class="Desc">Tea Whitener - NESTLE EVERYDAY Powder 560g Pouch - Original</p>
+            <p class="price">Rs. 1,017</p>
+            <p class="discount">Rs. 1,130-10%</p>
+        </div>
+        <div class="img1">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/1f153495fd8a788de6b528a5ae768370.jpg_400x400q80.jpg"
+             alt="" height="100px" width="120px">
+             <p class="Desc">Airpods Air Pro 3rd Gen TWS (True Wireless Stereo) Bluetooth Earbuds Dual Earphones Headset (Connect With All Bluetooth Devices)
+             .BLUETOOTH handfree</p>
+             <p class="price">Rs. 943</p>
+             <p class="discount">Rs. 4,500-79%</p>
+        </div>
+        <div class="img1">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/e9b3116c807bece911e9b67b6edb1127.jpg_400x400q80.jpg"
+             alt="" height="100px" width="120px">
+             <p class="Desc">M10 Air buds Wireless Bluetooth EarBuds Stereo Earphones with Power bank Bluetooth Ear phone Ear Buds Airdots Premium Quality
+             For All Smart Phones</p>
+             <p class="price">Rs. 799</p>
+             <p class="discount">Rs. 2,999-73%</p>
+        </div>
+        <div class="img1">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/86f93e5c2525f438ed9ffc91615ddb13.png_400x400q80.png" 
+            alt="" height="100px" width="120px">
+            <p class="Desc">Airpods Air Pro 3rd Gen TWS True Wireless Stereo Bluetooth Earbuds Dual Earphones Headset Connect With All Bluetooth
+             Devices</p>
+             <p class="price">Rs. 999</p>
+             <p class="discount">Rs. 3,999-75%</p>
+        </div>
+        <div class="img1">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/7c7b42b7c0b1c3b05e22984ef2d577a4.jpg_400x400q80.jpg" 
+            alt="" height="100px" width="120px">
+            <p class="Desc">NESTLE NIDO Growing up Formula 1+ Powder 900gm</p>
+            <p class="price">Rs. 2,186</p>
+            <p class="discount">Rs. 2,350-7%</p>
+        </div>
+        <div class="img1">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/287a16272effe1edd3bac80a4e2fd480.jpg_400x400q80.jpg"
+             alt="" height="100px" width="120px">
+             <p class="Desc">PACK 2 - Portable Storage Bags Organizer, Portable Clothes Storage Bags for Clothes -Normal size</p>
+             <p class="price">Rs. 1,099</p>
+             <p class="discount">Rs. 1,299-15%</p>
+        </div>
+    </div>
+
+
+    <h1 style="color: rgb(72, 67, 67);">Categories</h1>
+    <div class="img">
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/d08fe9f8f787d0bb2129c669c5ca11fd.jpg_170x170q80.jpg"
+             alt="" height="70px" width="70px">
+             <p>Messenger Bags</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/dd0a716ed7bd9be5566bd0666a5fd65b.jpg_170x170q80.jpg"
+             alt="" height="70px" width="70px">
+             <p>Sunglasses</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/06c4ea2ebe53b424604e2208ffb91bac.jpg_170x170q80.jpg" 
+            alt="" height="70px" width="70px">
+            <p>Mobiles</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/c004c97a147629d203bb3c941b414200.jpg_170x170q80.jpg" 
+            alt="" height="70px" width="70px">
+            <p>Dog & Cat Beds</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/3367f244c092f2072ee0d10603c27acd.png_170x170q80.png" 
+            alt="" height="70px" width="70px">
+            <p>Tablets</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/7a88f91af39f2215ac89c40375f6cec4.jpg_170x170q80.jpg"
+             alt="" height="70px" width="70px">
+             <p>Starter Kits</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/fa02808242a70a7b35e05d00d61d62e4.jpg_170x170q80.jpg" 
+            alt="" height="70px" width="70px">
+            <p>Tote Bags</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/c5272a5e0bd60aa51ce198b179521cae.jpg_170x170q80.jpg"
+             alt="" height="70px" width="70px" >
+             <p>Barstools</p>
+        </div>
+    </div>
+
+    <div class="img">
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/3f28787aeddef67640d003bc571281b4.jpg_170x170q80.jpg"
+             alt=""height="70px" width="70px" >
+             <p>Face Masks</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/d3ff005c9d8730f7cac023ad3a40fb02.jpg_170x170q80.jpg"
+             alt="" height="70px" width="70px">
+             <p>Battling Tops</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/22bca2e01783c5bf458f52e134af85e6.jpg_170x170q80.jpg" 
+            alt="" height="70px" width="70px">
+            <p>Microphones</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/712721a9f89c988dbc194ce6184c3907.jpg_170x170q80.jpg" 
+            alt="" height="70px" width="70px" >
+            <p>Coffee Machines</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/467283bc7d720f0e2717887cf13124b5.jpg_170x170q80.jpg"
+            alt="" height="70px" width="70px">
+            <p>Shower Caddies & Hangers</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/g/kf/S75bf84dedb1b4ad09eecacf924d92615A.jpg_170x170q80.jpg" 
+            alt="" height="70px" width="70px" >
+            <p>Dining Sets</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/4e12fef74b2cbde751972b6881f134f8.jpg_170x170q80.jpg"
+             alt="" height="70px" width="70px">
+             <p>Injury Support & Braces</p>
+        </div>
+        <div class="img2">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/45f3b064c3462a6eaba91ff3c7c2fc97.jpg_170x170q80.jpg"
+            alt=""height="70px" width="70px">
+            <p>Dress-Up Kits</p>
+        </div>
+    </div>
+
+
+    <h1 style="color: rgb(72, 67, 67);">Just For You</h1>
+    <div class="for-you">
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/1b7d827f3faff25452954401523789f4.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Original Vintage T9- Rechargeable Beard Trimmer For Men</p>
+            <p class="pric">Rs. 849</p>
+            <p  class="sale">Rs. 1,999-58%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/8dd8b1e6ac97d6f8fe8ba13df58bf2da.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Posture belt, Posture corrector belt, Back support belt, Backbone Belt, Spine Support Belt, Back Pain Relief Shoulder Back
+             Support Belt</p>
+             <p class="pric">Rs. 520</p>
+             <p  class="sale">Rs. 1,000-48%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/f0740998a99fdc2a756c611f06af0981.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Neck Warmer Motorcycle Helmet Cap - Men's and Women's Winter Windproof Cap Thick Double Warm Face Cover Cap, Black Thermal
+             Fleece Balaclava Hood Skiing Cycling Motorcycle Full Face Mask</p>
+            <p class="pric">Rs. 450</p>
+            <p  class="sale">Rs. 900-50%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/86453d3de6b8565432c2ff22a2a254f5.png_400x400q80.png_.webp" class="sub-img">
+            <p class="Desc">PACK OF 3 AMAZING NECKLACE DEAL FOR MEN | FASHION HIGH QUALITY BLACK BAR STICK NECKLACE + BLACK STAINLESS STEEL CHAIN BRACELET +
+             BLACK TITANIUM STAINLESS STEEL HEARTBEAT RING FOR BOY AND MEN</p>
+            <p class="pric">Rs. 79</p>
+            <p  class="sale">Rs. 199-60%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S2c1c0d4006844dc8a0180517f65aada1e.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">BURNOUT.PK NEW TRENDY WINTER COLLECTION PREMIUM QUALITY DTF DIGITAL HIGH QUALITY GOKU PRINTED HOODIES FOR MENS + BOYS + WOMENS</p>
+            <p   class="pric">Rs. 999</p>
+            <p  class="sale">Rs. 1,500-33%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/c2108b87ef83157d7e67f6c74dae360f.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Waterproof & Dustproof Three Blades Ceiling Fan Covers with Motor Cover Grey 1 Fan - 2 fan - 3 fan - 4 Fan - 5 Fan Cover Set</p>
+            <p   class="pric">Rs. 129</p>
+            <p  class="sale">Rs. 500-74%</p>
+        </div>
+         </div>
+
+         <div class="for-you">
+        <div class="margin"> 
+            <img src="https://img.drz.lazcdn.com/static/pk/p/055087eadb81dbde5eaf95e4dbb7201d.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Ear Wax Cleaning Kit, 6 Pcs Ear Pick Tools, Wax Removal Kit, Ear Cleaning Tool Set, Spring Earwax Cleaner Tool for
+             Children and Adult Multicolor</p>
+            <p   class="pric">Rs. 159</p>
+            <p  class="sale">Rs. 399-60%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/9eb2cccd19d87c632d2b3917b08e2fb8.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Flexible tripod phone holder foam</p>
+            <p   class="pric">Rs. 199</p>
+            <p  class="sale">Rs. 220-10%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/b6b1b25d0ee17b9b655348919d62d411.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">P47 Wireless Headset Bluetooth Foldable On-Ear Headphone (Connect with All Smart Cell Phones / Laptops / Computer Systems).</p>
+            <p   class="pric">Rs. 829</p>
+            <p  class="sale">Rs. 3,000-72%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S106530cf213e4eb8b5acd95724bf9a25j.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">22mm magnetic leather watch strap, compatible with Huawei/Xiaomi/Samsung, Galaxy Watch 3 45/46mm, women's and men's watch straps</p>
+            <p   class="pric">Rs. 1,038</p>
+            <p  class="sale">Rs. 2,706-62%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/b33834520d5e57524d8c46159505daba.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">HP Laptop bag, Backpacks Travel bag</p>
+            <p   class="pric">Rs. 619</p>
+            <p  class="sale">Rs. 3,899-84%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/716fa9ae58d1fe24768c5cb2cab2fd72.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">NASA Print Winter Track Suit Hoodie and Trouser</p>
+            <p   class="pric">Rs. 1'999</p>
+            <p  class="sale">Rs. 3,899-84%</p>
+        </div>
+    </div>
+
+    <div class="for-you">
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/2d18873962775f2051bf3b5b334deebb.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">M10 , A6s , F2 earbuds Headphones,Handfree,EarPhone, Bluetooth Neckband Magnetic Earphones Sport Running Earbuds Waterproof
+             Bluetooth 5.2 Headset With Mic, SM Trader</p>
+            <p   class="pric">Rs. 399</p>
+            <p  class="sale">Rs. 999-60%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/aa85b63ea565e4e7be6cf7d07341dfed.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Waist Trainer Belt Support for Women & Man Waist Cincher Trimmer Weight Loss Ab Belt Slimming Shaper Sweat Belt</p>
+            <p   class="pric">Rs. 350</p>
+            <p  class="sale">Rs. 499-30%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/a89cbaa0c81c363fcc7e87e459af9a39.png_400x400q80.png_.webp" class="sub-img">
+            <p class="Desc">MK Garments - Pack Of 3 Premium Plain Colors Full Sleeves Basic Shirts Casual Wear Trendy Long Sleeve T-Shirts For Men</p>
+            <p   class="pric">Rs. 1,299</p>
+            <p  class="sale">Rs. 1,699-24%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/eef7c681563da387de4bbb97ecb364f1.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Harry Potter Double Strip High quality imported casual printed kangro hoodies for men pullover</p>
+            <p   class="pric">Rs. 899</p>
+            <p  class="sale">Rs. 1,799-50%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/9684f46a6d41325d141550591a7cae04.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Men's Fleece Track Suit for Winter Pull Over Shirts and Joggers</p>
+            <p   class="pric">Rs. 1,299</p>
+            <p  class="sale">Rs. 799-38%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/9bfba192dfd83d504847716771309b76.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Crystal Ring Set</p>
+            <p   class="pric">Rs. 465</p>
+            <p  class="sale">Rs. 600-22%</p>
+        </div>
+    </div>
+
+    <div class="for-you">
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S851ccce5255141e4893c7344d3badd7ac.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Stylish PU Leather Long Wallets for Women Card Holder Single Zipper Clutch Purses Heart Embroidery Money Bag Wallet For Girls</p>
+            <p   class="pric">Rs. 595</p>
+            <p  class="sale">Rs. 999-40%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/24a1dbee1db7fe26f6cf38a5deecc420.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Garena Free Fire Diamonds 13</p>
+            <p   class="pric">Rs. 22</p>
+            <p  class="sale">Rs. 4,000-20%</p>
+        </div>
+        <div class="margin">
+            <img src="https://static-01.daraz.pk/p/dfbcadf0872f40d974b0a00bc4dac232.jpg" class="sub-img">
+            <p class="Desc">66W Super Fast Charge Power Bank 20000mAh with biult in Cables Portable External Battery Fast Charger</p>
+            <p   class="pric">Rs. 3,199</p>
+            <p  class="sale">Rs. 4,000-20%</p>
+        </div>
+        <div class="margin">
+            <img src="https://static-01.daraz.pk/p/9921620801dce463b69b35bcce191d42.jpg" class="sub-img">
+            <p class="Desc">Polo T-Shirts For Mens In Top Quality With Daraz Best Polo Collection 2024</p>
+            <p   class="pric">Rs. 999</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S7bf59b6dbff24e45bc0a9827b2ca0dd9z.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">2023 New Buket Bags For Girls Cross Body Shoulder Bag Long Shoulder StrapPu Leather 
+            Bag Simple Casual Diagnol Mobil Phone pouch Mini Bucket</p>
+            <p   class="pric">Rs. 549</p>
+            <p  class="sale">Rs. 1,499-17%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/f57edff5549fe4295d7c69938655a89a.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">24Pcs Diamond Black Butterfly Fake Nails with Glue DIY Art Design False Nails Wearable Nails Stylish Pattern Artificial
+             Nails</p>
+            <p   class="pric">Rs. 479</p>
+            <p  class="sale">Rs. 958-50%</p>
+        </div>
+    </div>
+
+    <div class="for-you">
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/0904c07c9a5b198facee62693f090b3d.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Black Women Crinkle Chiffon Embroidered 3Pec Black Dress Partywear Unstitched</p>
+            <p   class="pric">Rs. 3,199</p>
+            <p  class="sale">Rs. 6,999-54%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/e2fdaaac3da0c0ad837fdf5d71f3df77.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">AirPods_Pro Wireless Earbuds Bluetooth 5.0, Super Sound Bass, Charging Case and Extra Ear-Buds, Pop-Up Feature Compatible
+             with All Devices</p>
+            <p   class="pric">Rs. 826</p>
+            <p  class="sale">Rs. 999-17%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/7ee8232d887e9d55fef0641ef929201b.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">FLK SPOT - Sneakers for Men - Shoes for Boys - Shoes for Men - jogger for men</p>
+            <p   class="pric">Rs. 754</p>
+            <p  class="sale">Rs. 1,999-62%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/60ffc16335c44658d2024d9ddbe52108.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Winter Cap with Gloves Set – Warm, Stylish & Comfortable | Unisex Winter Accessories for Cold Weather, winter caps for men,
+             caps for boys, caps for girls, winter cap with neck warmer</p>
+            <p   class="pric">Rs. 449</p>
+            <p  class="sale">Rs. 699-36%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/d30f213f937b362edd73dfee697d4f71.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Enacolor Ultralight Eyeglasses Women's Pure School Style Student Large Frame Flat Lens Anti-blue Light Frame Glasses Ins
+             Gilr New Accessories</p>
+            <p   class="pric">Rs. 409</p>
+            <p  class="sale">Rs. 818-50%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/Sd61bbcc2ad57402caef62ecdb8c6218bR.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">BURNOUT.PK NEW TRENDY WINTER COLLECTION PREMIUM QUALITY WIN X FRONT BACK PRINTED HOODIES FOR MENS AND BOYS</p>
+            <p   class="pric">Rs. 944</p>
+            <p  class="sale">Rs. 1,900-50%</p>
+        </div>
+    </div>
+
+    <div class="for-you">
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/c9ac91adf74db1cd3b05d00b79d74e79.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">M10 & M90 TWS Airpods _ with Super Sound & High Quality Touch Sensors True Stereo Headphones with Built in Mic 10m Transmission
+             Bluetooth Wireless Earbuds , Sport Headset for all Bluetooth Smart devices.</p>
+            <p   class="pric">Rs. 849</p>
+            <p  class="sale">Rs. 3,500-76%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/0b950eadef6f9f031ed2310193bb9de6.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Trendy Brand Cartoon Cool Biker Boy Case Compatible for IPhone 16 7Plus 14 11 15 13 12 Pro Max 7 8 Plus XR XS Max X SE 2020
+             Motorcycle Boy Label Luxury Gray Purple Plating Metal Cover</p>
+            <p   class="pric">Rs. 668</p>
+            <p  class="sale">Rs. 1,500-55%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/Se3f3597604fd4820a7d42a086c614f67g.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Wireless Mouse Gaming Mouse Backlight USB Compatible RGB Rechargeable Mice Silent Backlit Ergonomic Gaming Mouse for Laptop PC |</p>
+            <p   class="pric">Rs. 800</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S3b3ddeb05b064efaac4dbb04cba51e3ah.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Customized Desc Ring Best quality Stainless steel Desc ring back color</p>
+            <p   class="pric" >Rs. 159</p>
+            <p  class="sale">Rs. 500-68%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/00aa0b94b1f4be5f0d9dd124f5be0f11.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Twin Shop Beanie cap-Wool cap with neck warmer for men women| Winter cap for Unisex</p>
+            <p   class="pric">Rs. 375</p>
+            <p  class="sale">Rs. 800-53%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S010499ed5fd74a2cbd394df9b721eed9D.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">European American Fashion New Vintage Dragon Pattern Titanium Steel Ring Hip Hop Men Single Party Opening Adjustable Ring</p>
+            <p   class="pric">Rs. 269</p>
+            <p  class="sale">Rs. 538-50%</p>
+        </div>
+    </div>
+
+    <div class="for-you">
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S566821df09ed4ec6bb585afa48b3d815J.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Stylish Patchwork Pocket Zipper Jacket For Men - Premium Shashka</p>
+            <p   class="pric">Rs. 1,299</p>
+            <p  class="sale">Rs. 2,000-35%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/de6e167bbd791ed8970d389c0e46a9d6.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Heartbeat logo Print Winter Track Suit Hoodie and Trouser</p>
+            <p   class="pric">Rs. 1,399</p>
+            <p  class="sale">Rs. 2,987-53%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/d5d5bc52123b71cd68dd45296207c4b8.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">LCD Writing Tablet, Single Color Drawing Tablet with Protect Cover, Kids Drawing Pad Doodle Board, Electronic Slate e-Writer, Erasable
+             E-Writer Digital Drawing Board Toddler Boy and Girl Learning Toys Gift for 3 4 5 6 Years Old</p>
+            <p   class="pric">Rs. 239</p>
+            <p  class="sale">Rs. 599-60%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/db10d5ec0405d040dffadddcaf38a1f9.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">High Quality Coffee Beater and Egg Whisker, Rechargeable USB Connect, Milk Frothier & Former, Egg Beater, Cake Beater, Portable Hand Beater
+             & Mixer, 2 in 1 Electric Egg Beater Coffee - USB Adjustable Electric Blender</p>
+            <p   class="pric">Rs. 1,499</p>
+            <p  class="sale">Rs. 1,999-25%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/3c1e29b579a3a5f796eec4134c58db61.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Hand bags for girls pack of 5 piece set with long strap</p>
+            <p   class="pric">Rs. 1,999</p>
+            <p  class="sale">Rs. 2,500-20%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/4dbeced4b45cd4d94c846b3f47a57f13.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Black Trendy Printed Tracksuit For Men & Boys - Soft & Comfy Fabric Summer Printed Tracksuit</p>
+            <p   class="pric">Rs. 999</p>
+            <p  class="sale">Rs. 2,000-50%</p>
+        </div>
+    </div>
+
+    <div class="for-you">
+        <div class="margin"> 
+            <img src="https://img.drz.lazcdn.com/g/kf/S5de7000b69394935844444f507d79806J.jpg_400x400q80.jpg_.webp" class="sub-img" >
+            <p class="Desc">(1/2 pcs) OWL Shape Fog Yellow-White & Flash light Low & High Beam Owl Plastic Body Spot Light for All Cars And Bikes 9V-60V 40W</p>
+            <p   class="pric">Rs. 799</p>
+            <p  class="sale">Rs. 1,000-20%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S257b13b3a83a4676b1151e1c01e95552S.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">6PCS/Set Fashion Women's Quartz Watch Leather Band Analog Quartz Watches with Diamond Jewelry(Without Box)</p>
+            <p   class="pric">Rs. 404</p>
+            <p  class="sale">Rs. 1,188-66%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/c8d46bd3db9b058d71c7507bf76accd9.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Winter Printed Poncho for Women</p>
+            <p   class="pric">Rs. 920</p>
+            <p  class="sale">Rs. 1,299-29%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/g/kf/S29fea018357d49b89b5120007ddabe94o.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Prado Land Cruiser Car Toy For Kids And Boys - Diecast Model Car - Front Door, Boot, Hood Open - Size Approx 5 Inch</p>
+            <p  class="pric" >Rs. 960</p>
+            <p  class="sale">Rs. 1,250-23%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/34cf4f7882255733e0b3d4a75c5cb67e.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">100% Pure TOP Quality BAG for Laptop, University, College school travel laptop business boy boys men</p>
+            <p   class="pric">Rs. 648</p>
+            <p  class="sale">Rs. 3,800-83%</p>
+        </div>
+        <div class="margin">
+            <img src="https://img.drz.lazcdn.com/static/pk/p/3bb35280db4e3006f9fe412e32fd8131.jpg_400x400q80.jpg_.webp" class="sub-img">
+            <p class="Desc">Cargo Trousers for Men 6 Pockets Trousers</p>
+            <p   class="pric">Rs. 1,499</p>
+            <p  class="sale">Rs. 3,800-83%</p>
+        </div>
+    </div>
+
+    <p style="color: rgb(25, 75, 194); margin: 0%; font-family: Century Gothic; font-style: normal;">&nbsp;LOAD MORE&nbsp;</p>
+
+    <div class="footer">
+    <div class="sub-footer">
+        <p>Customer Care</p>
+        <ul style="display: flex; flex-direction: column;">
+            <li>Help Center</li>
+            <li>How To Buy</li>
+            <li>Corporate & Bulk Purchasing</li>
+            <li>Returns & Refunds</li>
+            <li>Daraz Shops</li>
+            <li>Contact Us</li>
+            <li>Purchase Protection</li>
+            <li>Daraz Pick up Points</li>
+        </ul>
+    </div>
+    <div class="sub-footer">
+        <p>Daraz</p>
+    <ul style="display: flex; flex-direction: column;">
+        <li>About Us</li>
+        <li>Digital Payments</li>
+        <li>Daraz Donates</li>
+        <li>Daraz Blog</li>
+        <li>Terms & Conditions</li>
+        <li>Privacy Policy</li>
+        <li>NTN Number: 4012118-6</li>
+        <li>STRN Number: 1700401211818</li>
+        <li>Online Shopping App</li>
+        <li>Online Grocery Shopping</li>
+        <li>Daraz Exclusive</li>
+        <li>Daraz University</li>
+        <li>Sell On Daraz</li>
+        <li>Join Daraz Affiliate Program</li>
+    </ul>
+    </div>
+    <div style="padding-top: 20px;">
+        <img src="https://img.lazcdn.com/us/domino/e07f9602-da7e-4d31-9c4f-df69a2e95325_PK-60-60.png" alt="" height="50px" width="50px">
+        <h4 style="color: rgb(250, 114, 3);">Happy Shopping</h4>
+        <h5>Download App</h5>
+    </div>
+    <div style="padding-top: 20px;">
+        <img src="https://img.lazcdn.com/us/domino/2db6633b-c83c-48b7-9f7d-1262ee87cc80_PK-126-42.png" alt="" height="40px" width="125px">
+        <img src="https://img.lazcdn.com/us/domino/4812f06f-072d-45be-a930-640edf4caeee_PK-126-42.png" alt="" height="40px" width="125px">
+        <img src="https://img.lazcdn.com/us/domino/7d216fe8-1bac-4ac9-81d3-072a9fbf32fc_PK-126-42.png" alt="" height="40px" width="125px">
+</div>
+    </div>
+
+    <p>Payment Methods</p>
+    <div class="footer">
+            <img src="https://img.lazcdn.com/us/domino/ee9913f8-8258-4382-b97e-e2047ce93012_PK-139-84.png" alt="" width="50px" height="40px">
+            <img src="https://img.lazcdn.com/us/domino/78355368-8518-4b88-9f8e-e5751ee0863a_PK-140-84.png" alt="" width="50px" height="40px">
+            <img src="https://img.lazcdn.com/us/domino/5ba8a652-1445-45cb-a2a5-ed6043004243_PK-63-48.png" alt="" width="50px" height="40px">
+            <img src="https://img.lazcdn.com/us/domino/dd8e0447-8052-44f3-8ab2-b24c56a2491f_PK-139-84.png" alt="" width="50px" height="40px">
+            <img src="https://img.lazcdn.com/us/domino/e5c3cd93-b796-410f-9bfd-fbfdaa055149_PK-144-84.png" alt="" width="50px" height="40px">
+            <img src="https://img.lazcdn.com/us/domino/56915ba8-b2c0-4caf-b3a1-7e0f3d2d45cf_PK-139-84.png" alt="" width="50px" height="40px">
+            <img src="https://img.lazcdn.com/us/domino/75489476-3c86-44ed-bf81-8b0579d56e1c_PK-139-84.png" alt="" width="50px" height="40px">
+            <img src="https://img.lazcdn.com/us/domino/6668ff96-bf9a-40bd-8ce4-f7f7c0bee385_PK-144-84.png" alt="" width="50px" height="40px">
+            <img src="https://img.lazcdn.com/us/domino/7237a412-04cc-4571-a200-44f6f847a9da_PK-144-84.png" alt="" width="50px" height="40px">
+    </div>
+
+    <p>Verified By</p>
+    <div>
+        <img src="https://img.drz.lazcdn.com/g/tps/imgextra/i4/O1CN01ZaMORP1I3qlBom0V2_!!6000000000838-2-tps-73-41.png" alt="" width="50px" height="40px">
+    </div>
+
+    <div>
+    <p style="color: gray;">How Daraz Transformed Online Shopping in Pakistan</p>
+    <p style="color: gray;"> Daraz first made waves in Pakistan’s e-commerce market after its introduction in 2012. We have since grown to become Pakistan’s largest
+     platform for online shopping with a network spread across Asia in Pakistan, Bangladesh, Sri Lanka, Myanmar, and Daraz.com.np. Our vision
+     was to provide a safe, efficient online marketplace platform for vendors and customers across the country to come together. We started off
+     exclusively as an online fashion retail platform and over the years expanded to become a complete one-stop solution for all your buying
+     needs. Daraz prides itself on not being just another ecommerce venture in Asia. We work tirelessly to make sure that we provide users with
+     the best online online shopping experience and value for their purchases. Whether you shop online through our website or our online shopping
+     mobile App, you can expect easy navigation, customized recommendations, and a smooth online shopping experience guaranteed.</p>
+     <p style="color: gray;">What Makes Us Different from Other Online Shopping Platforms?</p>
+     <p style="color: gray;">Select from the Largest Online Marketplace in Pakistan With over 15 million products to select from, Daraz offers its customers the most
+     comprehensive listing of products in the country. Whether you’re looking for electronics, apparel, appliances, or groceries – there is
+      something for everyone.Hassle Free Delivery Online shopping is only as good as its execution and Daraz promises hassle free delivery 
+     right from the moment you order to when your package is dropped at your door. We cater to both major and smaller cities alike, and
+     give you the choice to track your package as it makes its way to you so you always know your order status. If you are unsatisfied 
+     with any aspect of your order, we have a simple 7-day return or exchange policy.Payment Options to Suit Every StyleYou can choose to pay 
+     through a credit/debit card, opt for cash on delivery or even go for EMI (easy monthly instalments). You can also avail exclusive offers by
+     downloading Daraz Wallet – a closed loop digital wallet that offers you a secure, easy way to make payments. We also have easypaisa & 
+     jazzcash payment method for our customers' easeShop from Verified VendorsDaraz understands that online shopping in Pakistan comes with its
+     fair share of risks. This is why with Daraz Marketplace and Daraz Mall customers have the security of choosing from verified vendors and
+     brands from Karachi, Lahore, Islamabad and all across Pakistan. Now you’ll never have to second guess authenticity because Daraz makes
+     sure to do it for you!Shop Around the World with Daraz Global CollectionInternational sellers and local convenience come together with
+     Daraz Global collection. Get the chance to shop online from vendors around the world without leaving the Daraz website. Featuring 
+     thousands of novelty gadgets and accessories, Daraz Global Collection offers you a selection of products that you won’t find anywhere
+     else when you’re online shopping in Pakistan.Avail Exclusive Discounts, Offers, and PromotionsOnline shopping with Daraz means you get
+     the chance to avail exclusive online-only promotional packages as well as discount vouchers from our vendors when you shop from
+     their pages. Our flash sales give you customized product offers all curated with the help of our advanced AI technology so you 
+     always have deals you’ll actually be interested in!Buy Value, not Just Goods with Daraz CareDaraz does not just cater online 
+     shopping in Pakistan but also aims to simplify the way you give back to society. With charities spanning across sectors of education
+     health care, environmental preservation, and shelters, you can choose to make a big difference with a few, simple clicks.Simplify
+     Corporate PurchasesWho says corporate purchases need to be a complicated affair? When you opt for Daraz Corporate, you get an 
+     efficient and transparent solution for your business’ bulk purchasing needs. We’re proud to be working with some of the most
+     prestigious organizations in Pakistan across a number of different industries.</p>
+     <p style="color: gray;">Top Categories & Brands</p>
+     <p style="color: gray;">MOBILE PHONES IN PAKISTAN
+        Apple iPhones , Honor Mobiles , Huawei Mobiles , Tecno Mobiles , Redmi Mobiles , Xiaomi Mi Mobiles , Nokia Mobiles , OnePlus Mobiles , Oppo Mobile Phones , Realme Mobiles , Samsung Mobile Phones , Vivo Mobile Phones , Mobile Accessories , Smart Watches
+        LATEST LAPTOPS
+        Dell Laptops , HP Laptops , Lenovo Laptops , Mouse , Gaming Graphic Cards , lenovo ideapad 3 , Macbook Pro 13 , Hp Probook 650 G2
+        LED TV
+        Changhong Led Tv , LG Led Tv , Samsung Led Tv , Sony Led Tv , TCL LED TVs
+        HOME APPLIANCES
+        Microwave oven , Geyser , Heater , Refrigerators , Deep Freezers , Generators , Water Dispensers , Fans , Room Cooler , Table Fans , Wall Fans , Exhaust Fans , Pedestal Fans , Window Ac , Solar Panel , Washing Machine
+        DSLR CAMERAS
+        Camera Tripods , Drones , IP & CCTV Cameras , Nikon D7000 , Nikon D5600 , Canon 200D , Canon 1200D , Fujifilm Instax Mini 11 , Canon M50
+        HEALTH & BEAUTY
+        sunisa foundation , Biofad , janssen facial kit , Glutathione Injection , Glutathione Cream , Sauvage , Glutathione Tablets , Glutathione Soap , Infrared Thermometers , N95 Mask
+        TRENDING
+        June Shopping Expo 2023 , Azaadi Sale 2022 , Shopping Expo , 11 11 Sale , 12.12 Sale , Live Cricket Streaming , Online Bills , Core I5 Laptop , Gtx 1060 , Samsung A32 , Samsung A51 , Samsung A52 , Samsung A71 , Samsung A72 , Samsung M31 , Samsung S20 , Samsung S20 Ultra 5G , Samsung S21 , Samsung S21 Ultra , Samsung Z Flip , Tecno Camon 17 , Tecno Spark 6 , Vivo V20 , Poco X3 Pro , Vivo V21 , Vivo V21E , Vivo X70 Pro , Vivo Y12 , Vivo Y12S , Vivo Y1S , Vivo Y20 , Vivo Y51 , Vivo Y51S , Oppo F19 Pro , Oppo Reno 6 , Xiaomi Poco F3 , Xiaomi Poco M3 , Xiaomi Poco X3 , Xiaomi Poco X3 Gt , Xiaomi Redmi 9C , Xiaomi Redmi Note 10 Pro , Sharp Aquos R2
+        SHOP WORLDWIDE WITH LAZADA
+        Singapore , Malaysia , Philipines , Indonesia , Vietnam , Thailand
+        WOMEN'S FASHION
+        Al-Karam Studio , Warda , Salitex , Bonanza Satrangi , Edenrobe , Firdous , Junaid Jamshed , Limelight , Sana Safinaz , Mahru , Pushup Bra , Women Undergarments
+        MEN'S FASHION
+        Men's Shirts , Men's T-Shirts
+        ONLINE GROCERY STORE
+        Oil & Ghee , Basmati Rice , Dried Fruits , Chocolates , Mattresses
+        ONLINE BOOK STORE
+        English Books , Islamic Books , History Books , English Literature Books , Kids Urdu Stories , Pride & Prejudice , Harry Potter Story Books , Namal Novel , Nimra Ahmed Novels
+        USED CARS FOR SALE
+        Suzuki Wagon R , KIA Sportage , Honda City , Toyota Prado , Suzuki Alto , Suzuki Cultus , Honda Civic , Honda 125 , Honda 70 , Yamaha Ybr 125 , Hi Speed 150 , Hi Speed Freedom 200 , Metro 70 , Super Power 125 , Monster JMS 3500 Electric Bike , Super Power 70 , Car Accessories
+        AIR CONDITIONERS
+        Kenwood Ac , Haier Ac , Gree Ac , Dawlance Ac , Orient Ac , Ecostar Ac , Inverex Solar Ac , Pel Ac
+        TOP MOBILE PHONES
+        Nokia G20 , redmi 9 , realme 7 pro , realme c15 , realme c21 , vivo y20s , realme c11 Price in Pakistan , itel vision 1 pro price in pakistan , samsung galaxy a02 price in pakistan , Infinix Hot 10 , Infinix Hot 8 , Infinix Hot 9 , Infinix Note 10 Pro , Infinix Note 7 , Infinix Note 8 , Infinix Zero 8 , Inifnix Smart 5 , iPhone 11 , iPhone 12 , iphone 12 Pro Max , iPhone 12 Pro , iPhone 6 , Itel A25 , Mi 10T , Nokia 105 , Oppo A15 , Oppo A15S , Oppo A53 , Oppo A54 , Infinix Zero X Pro , Infinix Zero X Neo , Oppo F19 , Oppo Reno 5 , Oppo Reno 5 Pro , Xiaomi Poco M3 Pro , Realme 6 Pro , Realme 8 , Realme Narzo 30A , Samsung A02S , Samsung A11 , Samsung A12 , Samsung A31 , Vivo Y33s , Infinix Note 11 , Tecno Spark 6 Go , Samsung A52s , Samsung Tab A7 Lite , Oppo Reno 6 Pro
+        MEDICINE
+        surbex z , tea tree oil , hydrozole cream , biotin tablets , evion capsule , lactogen 1 , minoxidil , clobevate cream , centrum silver ,
+         maxdif cream , dermovate cream , cac 1000 , Panadol Migraine</p>
+        </div>
+
+        <p>Daraz International</p>
+        <div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/1fe7d756-2469-4d8e-82b2-d5eb7cbad875_PK-84-84.png" alt="" height="40px" width="40px">
+                <p style="color: gray;">Pakistan</p>
+            </div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/05a4ef2c-095c-407d-9295-aa45b5412de0_PK-84-84.png" alt="" height="40px" width="40px">
+                <p style="color: gray;">Bangladesh</p>
+            </div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/5536488d-c32a-44eb-8307-ed6651d907da_PK-84-84.png" alt="" height="40px" width="40px">
+                <p style="color: gray;">Sri Lanka</p>
+            </div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/8896f696-b36f-4cb1-8576-2e86eed05046_PK-84-84.png" alt="" height="40px" width="40px">
+                <p style="color: gray;">Myanmar</p>
+            </div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/39f7f111-619f-47cd-993c-a551aaed15fd_PK-86-86.png" alt="" height="40px" width="40px">
+                <p style="color: gray;">Nepal</p>
+            </div>
+        </div>
+
+        <p>Follow Us</p>
+        <div class="footer1">
+            <div>
+                <img src="https://img.lazcdn.com/g/tps/imgextra/i3/O1CN01Wdetn224xMIRNihao_!!6000000007457-2-tps-34-34.png" alt="" height="40px" width="40px">
+            </div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/77ab92ab-17ae-40ce-aa8b-e8de5974939d_PK-76-76.png" alt="" height="40px" width="40px">
+            </div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/f03a43e7-3655-4049-8c12-b1614ac2a2d4_PK-75-76.png" alt="" height="40px" width="40px">
+            </div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/6bf9555a-40ae-466d-a756-907f70aa3461_PK-76-76.png" alt="" height="40px" width="40px">
+            </div>
+            <div>
+                <img src="https://img.lazcdn.com/us/domino/cea1aedb-aa69-44d5-bbaf-ca5901797dea_PK-76-76.png" alt="" height="40px" width="40px">
+            </div>
+        </div>
+</body>
+</html>
